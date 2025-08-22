@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:movix_pro/screens/forget_password_screen.dart';
-import 'package:movix_pro/screens/home_page.dart';
 import 'package:movix_pro/screens/welcome_screen.dart';
 import 'package:movix_pro/screens/signin_screen.dart';
 import 'package:movix_pro/screens/signup_screen.dart';
 import 'package:movix_pro/screens/otp_screen.dart';
 import 'package:movix_pro/screens/reset_password_screen.dart';
+import 'package:movix_pro/screens/home_page.dart';
 import 'package:movix_pro/screens/profile_screen.dart';
 
 class Routes {

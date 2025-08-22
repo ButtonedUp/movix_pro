@@ -15,8 +15,8 @@ class MovixProApp extends StatelessWidget {
       title: 'MOVIX PRO',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark,
-      initialRoute: Routes.home,
       routes: Routes.map,
+      //initialRoute: Routes.profile,
     );
   }
 }
