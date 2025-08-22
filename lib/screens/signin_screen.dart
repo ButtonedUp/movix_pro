@@ -42,7 +42,8 @@ class _SignInScreenState extends State<SignInScreen> {
                   labelText: 'Password',
                   suffixIcon: IconButton(
                     onPressed: () => setState(() => obscure = !obscure),
-                    icon: Icon(obscure ? Icons.visibility_off : Icons.visibility),
+                    icon:
+                        Icon(obscure ? Icons.visibility_off : Icons.visibility),
                   ),
                 ),
               ),
@@ -55,13 +56,18 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
               ),
               const SizedBox(height: 8),
-              PrimaryButton(label: 'Sign In', onPressed: () {}),
+              PrimaryButton(
+                label: 'Sign In',
+                onPressed: () => Navigator.pushNamed(context, Routes.home),
+              ),
               const SizedBox(height: 16),
               Row(
                 children: [
-                  SocialButton(icon: Icons.g_mobiledata, label: 'Google', onTap: () {}),
+                  SocialButton(
+                      icon: Icons.g_mobiledata, label: 'Google', onTap: () {}),
                   const SizedBox(width: 12),
-                  SocialButton(icon: Icons.facebook, label: 'Facebook', onTap: () {}),
+                  SocialButton(
+                      icon: Icons.facebook, label: 'Facebook', onTap: () {}),
                   const SizedBox(width: 12),
                   SocialButton(icon: Icons.apple, label: 'Apple', onTap: () {}),
                 ],
@@ -72,7 +78,8 @@ class _SignInScreenState extends State<SignInScreen> {
                 children: [
                   const Text("Don’t have an account? "),
                   TextButton(
-                    onPressed: () => Navigator.pushNamed(context, Routes.signup),
+                    onPressed: () =>
+                        Navigator.pushNamed(context, Routes.signup),
                     child: const Text('Sign Up'),
                   ),
                 ],
