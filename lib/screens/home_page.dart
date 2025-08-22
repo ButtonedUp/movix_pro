@@ -29,7 +29,7 @@ class home_page extends StatelessWidget {
                       ),
                     ),
                     title: Text(
-                      "Hello, Name",
+                      "Hello,Name",
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                     ),
                     minLeadingWidth: 0, // remove extra minimum width
